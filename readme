@@ -1,0 +1,20 @@
+1.crear tu carpeta - proyecto
+    python -m venv env #crea el entorno
+    env/Scripts/activate #activamos el entorno
+    pip install fastapi  #instalamos fastAPI
+    python -m pip install --upgrade pip   #actualiza la version de pip
+    pip install uvicorn #instalamos uvicorn para poder correr el server
+
+    presionar F1 y en python:Select interpreter #rutear por el que se encuentra en el entorono virtual del proyecto que acabas de crear
+
+
+    pip install pyjwt
+
+    # este es para correr el FAStapi
+    uvicorn main:app --reload --port 6500
+
+    #http://localhost:6500/docs
+
+
+#FAStapi CON SQL LITE    
+    INSTALAR DESDE LAS EXTENSIONES SQLITE VIEWER
